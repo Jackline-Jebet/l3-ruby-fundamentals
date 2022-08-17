@@ -92,8 +92,14 @@ puts student
 # 8.0 Methods
 # TODO: Method with enclosed params
 
-# TODO: Method with open params
 
+# TODO: Method with open params
+def count_tms param1, param2
+    param1 + param2
+end
+
+counted_tms =count_tms 20, 40
+puts counted_tms.to_f
 
 
 
